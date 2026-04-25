@@ -1,0 +1,819 @@
+Marking id:wrapped_composition_tag:2131034200 reachable: referenced from base/dex/classes.dex
+Marking string:androidx_startup:2131296256 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_scroll_to_earlier_years:2131296291 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_scroll_to_later_years:2131296292 reachable: referenced from base/dex/classes.dex
+Marking string:default_popup_window_title:2131296268 reachable: referenced from base/dex/classes.dex
+Marking id:compose_view_saveable_id_tag:2131034154 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_next_month:2131296296 reachable: referenced from base/dex/classes.dex
+Marking style:EdgeToEdgeFloatingDialogWindowTheme:2131361801 reachable: referenced from base/dex/classes.dex
+Marking attr:windowSplashScreenBackground:2130771989 reachable: referenced from base/dex/classes.dex
+Marking attr:windowSplashScreenAnimatedIcon:2130771987 reachable: referenced from base/dex/classes.dex
+Marking attr:splashScreenIconSize:2130771985 reachable: referenced from base/dex/classes.dex
+Marking attr:postSplashScreenTheme:2130771982 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_collapse_description:2131296274 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_dismiss_description:2131296275 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_expand_description:2131296277 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131034198 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_scroll_to_previous_month:2131296307 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_scroll_to_next_month:2131296306 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_period_toggle_description:2131296327 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_text_field:2131296326 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_text_field:2131296322 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour:2131296318 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute:2131296323 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_selection:2131296320 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_selection:2131296324 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_minute_suffix:2131296325 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_24h_suffix:2131296319 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_hour_suffix:2131296321 reachable: referenced from base/dex/classes.dex
+Marking style:FloatingDialogWindowTheme:2131361803 reachable: referenced from base/dex/classes.dex
+Marking style:DialogWindowTheme:2131361799 reachable: referenced from base/dex/classes.dex
+Marking id:inspection_slot_table_set:2131034165 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_input_mode:2131296295 reachable: referenced from base/dex/classes.dex
+Marking id:androidx_compose_ui_view_composition_context:2131034150 reachable: referenced from base/dex/classes.dex
+Marking string:tooltip_description:2131296343 reachable: referenced from base/dex/classes.dex
+Marking string:tooltip_label:2131296344 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_no_selection_description:2131296290 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_no_input_description:2131296285 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_headline:2131296287 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_headline:2131296279 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_headline_description:2131296288 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_headline_description:2131296280 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_title:2131296299 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_title:2131296286 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_lifecycle_owner:2131034196 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_view_model_store_owner:2131034199 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_navigate_to_year_description:2131296289 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_pm:2131296328 reachable: referenced from base/dex/classes.dex
+Marking id:tag_unhandled_key_listeners:2131034190 reachable: referenced from base/dex/classes.dex
+Marking string:default_error_message:2131296267 reachable: referenced from base/dex/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131034174 reachable: referenced from base/dex/classes.dex
+Marking id:tag_unhandled_key_event_manager:2131034189 reachable: referenced from base/dex/classes.dex
+Marking id:is_pooling_container_tag:2131034166 reachable: referenced from base/dex/classes.dex
+Marking id:tag_screen_reader_focusable:2131034186 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_heading:2131034181 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_pane_title:2131034182 reachable: referenced from base/dex/classes.dex
+Marking id:tag_state_description:2131034187 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_clickable_spans:2131034180 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_action_clickable_span:2131034112 reachable: referenced from base/dex/classes.dex
+Marking id:tag_accessibility_actions:2131034179 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131034197 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_dropdown_menu_expanded:2131296312 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_dropdown_menu_collapsed:2131296311 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_dropdown_menu_toggle:2131296313 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_start_headline:2131296308 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_end_headline:2131296305 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_title:2131296309 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_input_title:2131296303 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_for_pattern:2131296281 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_year_range:2131296283 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_invalid_not_allowed:2131296282 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_input_label:2131296284 reachable: referenced from base/dex/classes.dex
+Marking id:report_drawn:2131034175 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_picker_day_in_range:2131296304 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_today_description:2131296300 reachable: referenced from base/dex/classes.dex
+Marking id:tag_window_insets_animation_callback:2131034191 reachable: referenced from base/dex/classes.dex
+Marking id:tag_on_apply_window_listener:2131034183 reachable: referenced from base/dex/classes.dex
+Marking id:consume_window_insets_tag:2131034155 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_time_picker_am:2131296317 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_0:2131034113 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_1:2131034114 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_2:2131034125 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_3:2131034136 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_4:2131034139 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_5:2131034140 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_6:2131034141 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_7:2131034142 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_8:2131034143 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_9:2131034144 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_10:2131034115 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_11:2131034116 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_12:2131034117 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_13:2131034118 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_14:2131034119 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_15:2131034120 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_16:2131034121 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_17:2131034122 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_18:2131034123 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_19:2131034124 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_20:2131034126 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_21:2131034127 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_22:2131034128 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_23:2131034129 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_24:2131034130 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_25:2131034131 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_26:2131034132 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_27:2131034133 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_28:2131034134 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_29:2131034135 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_30:2131034137 reachable: referenced from base/dex/classes.dex
+Marking id:accessibility_custom_action_31:2131034138 reachable: referenced from base/dex/classes.dex
+Marking string:indeterminate:2131296273 reachable: referenced from base/dex/classes.dex
+Marking string:state_off:2131296337 reachable: referenced from base/dex/classes.dex
+Marking string:state_on:2131296338 reachable: referenced from base/dex/classes.dex
+Marking string:selected:2131296335 reachable: referenced from base/dex/classes.dex
+Marking string:not_selected:2131296332 reachable: referenced from base/dex/classes.dex
+Marking string:template_percent:2131296342 reachable: referenced from base/dex/classes.dex
+Marking string:in_progress:2131296272 reachable: referenced from base/dex/classes.dex
+Marking string:state_empty:2131296336 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_year_picker_pane_title:2131296301 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_previous_month:2131296297 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_search_bar_search:2131296314 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_suggestions_available:2131296316 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_dialog:2131296310 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_range_input_invalid_range_input:2131296302 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_pane_title:2131296278 reachable: referenced from base/dex/classes.dex
+Marking string:close_sheet:2131296266 reachable: referenced from base/dex/classes.dex
+Marking string:range_start:2131296334 reachable: referenced from base/dex/classes.dex
+Marking string:range_end:2131296333 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_snackbar_dismiss:2131296315 reachable: referenced from base/dex/classes.dex
+Marking string:navigation_menu:2131296331 reachable: referenced from base/dex/classes.dex
+Marking string:close_drawer:2131296265 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_day_selection:2131296294 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_year_selection:2131296298 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_bottom_sheet_drag_handle_description:2131296276 reachable: referenced from base/dex/classes.dex
+Marking id:hide_in_inspector_tag:2131034161 reachable: referenced from base/dex/classes.dex
+Marking string:m3c_date_picker_switch_to_calendar_mode:2131296293 reachable: referenced from base/dex/classes.dex
+Marking id:hide_graphics_layer_in_inspector_tag:2131034159 reachable: referenced from base/dex/classes.dex
+Marking attr:alpha:2130771968 reachable: referenced from base/dex/classes.dex
+Marking attr:lStar:2130771980 reachable: referenced from base/dex/classes.dex
+Marking string:tab:2131296341 reachable: referenced from base/dex/classes.dex
+Marking string:switch_role:2131296340 reachable: referenced from base/dex/classes.dex
+@printer.smart.app:attr/alpha : reachable=true
+@printer.smart.app:attr/font : reachable=false
+@printer.smart.app:attr/fontProviderAuthority : reachable=false
+@printer.smart.app:attr/fontProviderCerts : reachable=false
+@printer.smart.app:attr/fontProviderFetchStrategy : reachable=false
+@printer.smart.app:attr/fontProviderFetchTimeout : reachable=false
+@printer.smart.app:attr/fontProviderPackage : reachable=false
+@printer.smart.app:attr/fontProviderQuery : reachable=false
+@printer.smart.app:attr/fontProviderSystemFontFamily : reachable=false
+@printer.smart.app:attr/fontStyle : reachable=false
+@printer.smart.app:attr/fontVariationSettings : reachable=false
+@printer.smart.app:attr/fontWeight : reachable=false
+@printer.smart.app:attr/lStar : reachable=true
+@printer.smart.app:attr/nestedScrollViewStyle : reachable=false
+@printer.smart.app:attr/postSplashScreenTheme : reachable=true
+@printer.smart.app:attr/queryPatterns : reachable=false
+@printer.smart.app:attr/shortcutMatchRequired : reachable=false
+@printer.smart.app:attr/splashScreenIconSize : reachable=true
+@printer.smart.app:attr/ttcIndex : reachable=false
+@printer.smart.app:attr/windowSplashScreenAnimatedIcon : reachable=true
+@printer.smart.app:attr/windowSplashScreenAnimationDuration : reachable=false
+@printer.smart.app:attr/windowSplashScreenBackground : reachable=true
+@printer.smart.app:attr/windowSplashScreenIconBackgroundColor : reachable=false
+@printer.smart.app:color/androidx_core_ripple_material_light : reachable=false
+@printer.smart.app:color/androidx_core_secondary_text_default_material_light : reachable=false
+@printer.smart.app:color/black : reachable=false
+@printer.smart.app:color/call_notification_answer_color : reachable=false
+@printer.smart.app:color/call_notification_decline_color : reachable=false
+@printer.smart.app:color/hp_blue : reachable=false
+@printer.smart.app:color/hp_dark : reachable=false
+@printer.smart.app:color/hp_light : reachable=false
+@printer.smart.app:color/notification_action_color_filter : reachable=false
+    @printer.smart.app:color/androidx_core_secondary_text_default_material_light
+@printer.smart.app:color/notification_icon_bg_color : reachable=false
+@printer.smart.app:color/vector_tint_color : reachable=false
+@printer.smart.app:color/vector_tint_theme_color : reachable=false
+@printer.smart.app:color/white : reachable=false
+@printer.smart.app:dimen/compat_button_inset_horizontal_material : reachable=false
+@printer.smart.app:dimen/compat_button_inset_vertical_material : reachable=false
+@printer.smart.app:dimen/compat_button_padding_horizontal_material : reachable=false
+@printer.smart.app:dimen/compat_button_padding_vertical_material : reachable=false
+@printer.smart.app:dimen/compat_control_corner_material : reachable=false
+@printer.smart.app:dimen/compat_notification_large_icon_max_height : reachable=false
+@printer.smart.app:dimen/compat_notification_large_icon_max_width : reachable=false
+@printer.smart.app:dimen/notification_action_icon_size : reachable=false
+@printer.smart.app:dimen/notification_action_text_size : reachable=false
+@printer.smart.app:dimen/notification_big_circle_margin : reachable=false
+@printer.smart.app:dimen/notification_content_margin_start : reachable=false
+@printer.smart.app:dimen/notification_large_icon_height : reachable=false
+@printer.smart.app:dimen/notification_large_icon_width : reachable=false
+@printer.smart.app:dimen/notification_main_column_padding_top : reachable=false
+@printer.smart.app:dimen/notification_media_narrow_margin : reachable=false
+@printer.smart.app:dimen/notification_right_icon_size : reachable=false
+@printer.smart.app:dimen/notification_right_side_padding_top : reachable=false
+@printer.smart.app:dimen/notification_small_icon_background_padding : reachable=false
+@printer.smart.app:dimen/notification_small_icon_size_as_large : reachable=false
+@printer.smart.app:dimen/notification_subtext_size : reachable=false
+@printer.smart.app:dimen/notification_top_pad : reachable=false
+@printer.smart.app:dimen/notification_top_pad_large_text : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_mask_size_no_background : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_mask_size_with_background : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_mask_stroke_no_background : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_mask_stroke_with_background : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_size : reachable=false
+    @printer.smart.app:attr/splashScreenIconSize
+@printer.smart.app:dimen/splashscreen_icon_size_no_background : reachable=false
+@printer.smart.app:dimen/splashscreen_icon_size_with_background : reachable=false
+@printer.smart.app:drawable/compat_splash_screen : reachable=false
+    @printer.smart.app:attr/windowSplashScreenBackground
+    @printer.smart.app:drawable/icon_background
+    @printer.smart.app:dimen/splashscreen_icon_size_with_background
+    @printer.smart.app:attr/windowSplashScreenAnimatedIcon
+    @printer.smart.app:dimen/splashscreen_icon_mask_size_with_background
+    @printer.smart.app:dimen/splashscreen_icon_mask_stroke_with_background
+@printer.smart.app:drawable/compat_splash_screen_no_icon_background : reachable=false
+    @printer.smart.app:attr/windowSplashScreenBackground
+    @printer.smart.app:attr/windowSplashScreenAnimatedIcon
+    @printer.smart.app:dimen/splashscreen_icon_size_no_background
+    @printer.smart.app:dimen/splashscreen_icon_mask_size_no_background
+    @printer.smart.app:dimen/splashscreen_icon_mask_stroke_no_background
+@printer.smart.app:drawable/ic_call_answer : reachable=false
+@printer.smart.app:drawable/ic_call_answer_low : reachable=false
+@printer.smart.app:drawable/ic_call_answer_video : reachable=false
+@printer.smart.app:drawable/ic_call_answer_video_low : reachable=false
+@printer.smart.app:drawable/ic_call_decline : reachable=false
+@printer.smart.app:drawable/ic_call_decline_low : reachable=false
+@printer.smart.app:drawable/ic_launcher_background : reachable=false
+@printer.smart.app:drawable/ic_launcher_monochrome : reachable=false
+@printer.smart.app:drawable/icon_background : reachable=false
+    @printer.smart.app:attr/windowSplashScreenIconBackgroundColor
+@printer.smart.app:drawable/notification_action_background : reachable=false
+    @printer.smart.app:color/androidx_core_ripple_material_light
+    @printer.smart.app:dimen/compat_button_inset_horizontal_material
+    @printer.smart.app:dimen/compat_button_inset_vertical_material
+    @printer.smart.app:dimen/compat_control_corner_material
+    @printer.smart.app:dimen/compat_button_padding_vertical_material
+    @printer.smart.app:dimen/compat_button_padding_horizontal_material
+@printer.smart.app:drawable/notification_bg : reachable=false
+    @printer.smart.app:drawable/notification_bg_normal_pressed
+    @printer.smart.app:drawable/notification_bg_normal
+@printer.smart.app:drawable/notification_bg_low : reachable=false
+    @printer.smart.app:drawable/notification_bg_low_pressed
+    @printer.smart.app:drawable/notification_bg_low_normal
+@printer.smart.app:drawable/notification_bg_low_normal : reachable=false
+@printer.smart.app:drawable/notification_bg_low_pressed : reachable=false
+@printer.smart.app:drawable/notification_bg_normal : reachable=false
+@printer.smart.app:drawable/notification_bg_normal_pressed : reachable=false
+@printer.smart.app:drawable/notification_icon_background : reachable=false
+    @printer.smart.app:color/notification_icon_bg_color
+@printer.smart.app:drawable/notification_oversize_large_icon_bg : reachable=false
+@printer.smart.app:drawable/notification_template_icon_bg : reachable=false
+@printer.smart.app:drawable/notification_template_icon_low_bg : reachable=false
+@printer.smart.app:drawable/notification_tile_bg : reachable=false
+    @printer.smart.app:drawable/notify_panel_notification_icon_bg
+@printer.smart.app:drawable/notify_panel_notification_icon_bg : reachable=false
+@printer.smart.app:id/accessibility_action_clickable_span : reachable=true
+@printer.smart.app:id/accessibility_custom_action_0 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_1 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_10 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_11 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_12 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_13 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_14 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_15 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_16 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_17 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_18 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_19 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_2 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_20 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_21 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_22 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_23 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_24 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_25 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_26 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_27 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_28 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_29 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_3 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_30 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_31 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_4 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_5 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_6 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_7 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_8 : reachable=true
+@printer.smart.app:id/accessibility_custom_action_9 : reachable=true
+@printer.smart.app:id/action_container : reachable=false
+@printer.smart.app:id/action_divider : reachable=false
+@printer.smart.app:id/action_image : reachable=false
+@printer.smart.app:id/action_text : reachable=false
+@printer.smart.app:id/actions : reachable=false
+@printer.smart.app:id/androidx_compose_ui_view_composition_context : reachable=true
+@printer.smart.app:id/async : reachable=false
+@printer.smart.app:id/blocking : reachable=false
+@printer.smart.app:id/chronometer : reachable=false
+@printer.smart.app:id/compose_view_saveable_id_tag : reachable=true
+@printer.smart.app:id/consume_window_insets_tag : reachable=true
+@printer.smart.app:id/dialog_button : reachable=false
+@printer.smart.app:id/edit_text_id : reachable=false
+@printer.smart.app:id/forever : reachable=false
+@printer.smart.app:id/hide_graphics_layer_in_inspector_tag : reachable=true
+@printer.smart.app:id/hide_ime_id : reachable=false
+@printer.smart.app:id/hide_in_inspector_tag : reachable=true
+@printer.smart.app:id/icon : reachable=false
+@printer.smart.app:id/icon_group : reachable=false
+@printer.smart.app:id/info : reachable=false
+@printer.smart.app:id/inspection_slot_table_set : reachable=true
+@printer.smart.app:id/is_pooling_container_tag : reachable=true
+@printer.smart.app:id/italic : reachable=false
+@printer.smart.app:id/line1 : reachable=false
+@printer.smart.app:id/line3 : reachable=false
+@printer.smart.app:id/normal : reachable=false
+@printer.smart.app:id/notification_background : reachable=false
+@printer.smart.app:id/notification_main_column : reachable=false
+@printer.smart.app:id/notification_main_column_container : reachable=false
+@printer.smart.app:id/pooling_container_listener_holder_tag : reachable=true
+@printer.smart.app:id/report_drawn : reachable=true
+@printer.smart.app:id/right_icon : reachable=false
+@printer.smart.app:id/right_side : reachable=false
+@printer.smart.app:id/splashscreen_icon_view : reachable=false
+@printer.smart.app:id/tag_accessibility_actions : reachable=true
+@printer.smart.app:id/tag_accessibility_clickable_spans : reachable=true
+@printer.smart.app:id/tag_accessibility_heading : reachable=true
+@printer.smart.app:id/tag_accessibility_pane_title : reachable=true
+@printer.smart.app:id/tag_on_apply_window_listener : reachable=true
+@printer.smart.app:id/tag_on_receive_content_listener : reachable=false
+@printer.smart.app:id/tag_on_receive_content_mime_types : reachable=false
+@printer.smart.app:id/tag_screen_reader_focusable : reachable=true
+@printer.smart.app:id/tag_state_description : reachable=true
+@printer.smart.app:id/tag_transition_group : reachable=false
+@printer.smart.app:id/tag_unhandled_key_event_manager : reachable=true
+@printer.smart.app:id/tag_unhandled_key_listeners : reachable=true
+@printer.smart.app:id/tag_window_insets_animation_callback : reachable=true
+@printer.smart.app:id/text : reachable=false
+@printer.smart.app:id/text2 : reachable=false
+@printer.smart.app:id/time : reachable=false
+@printer.smart.app:id/title : reachable=false
+@printer.smart.app:id/view_tree_lifecycle_owner : reachable=true
+@printer.smart.app:id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
+@printer.smart.app:id/view_tree_saved_state_registry_owner : reachable=true
+@printer.smart.app:id/view_tree_view_model_store_owner : reachable=true
+@printer.smart.app:id/wrapped_composition_tag : reachable=true
+@printer.smart.app:integer/default_icon_animation_duration : reachable=false
+@printer.smart.app:integer/m3c_window_layout_in_display_cutout_mode : reachable=false
+@printer.smart.app:integer/status_bar_notification_info_maxnum : reachable=false
+@printer.smart.app:layout/custom_dialog : reachable=false
+@printer.smart.app:layout/ime_base_split_test_activity : reachable=false
+@printer.smart.app:layout/ime_secondary_split_test_activity : reachable=false
+@printer.smart.app:layout/notification_action : reachable=false
+    @printer.smart.app:style/Widget_Compat_NotificationActionContainer
+    @printer.smart.app:dimen/notification_action_icon_size
+    @printer.smart.app:style/Widget_Compat_NotificationActionText
+@printer.smart.app:layout/notification_action_tombstone : reachable=false
+    @printer.smart.app:style/Widget_Compat_NotificationActionContainer
+    @printer.smart.app:dimen/notification_action_icon_size
+    @printer.smart.app:style/Widget_Compat_NotificationActionText
+@printer.smart.app:layout/notification_template_custom_big : reachable=false
+    @printer.smart.app:layout/notification_template_icon_group
+    @printer.smart.app:dimen/notification_large_icon_width
+    @printer.smart.app:dimen/notification_large_icon_height
+    @printer.smart.app:dimen/notification_right_side_padding_top
+    @printer.smart.app:layout/notification_template_part_time
+    @printer.smart.app:layout/notification_template_part_chronometer
+    @printer.smart.app:style/TextAppearance_Compat_Notification_Info
+@printer.smart.app:layout/notification_template_icon_group : reachable=false
+    @printer.smart.app:dimen/notification_large_icon_width
+    @printer.smart.app:dimen/notification_large_icon_height
+    @printer.smart.app:dimen/notification_big_circle_margin
+    @printer.smart.app:dimen/notification_right_icon_size
+@printer.smart.app:layout/notification_template_part_chronometer : reachable=false
+    @printer.smart.app:style/TextAppearance_Compat_Notification_Time
+@printer.smart.app:layout/notification_template_part_time : reachable=false
+    @printer.smart.app:style/TextAppearance_Compat_Notification_Time
+@printer.smart.app:layout/splash_screen_view : reachable=false
+    @printer.smart.app:attr/splashScreenIconSize
+@printer.smart.app:mipmap/ic_launcher : reachable=true
+    @printer.smart.app:drawable/ic_launcher_background
+    @printer.smart.app:mipmap/ic_launcher_foreground
+    @printer.smart.app:drawable/ic_launcher_monochrome
+@printer.smart.app:mipmap/ic_launcher_foreground : reachable=false
+@printer.smart.app:mipmap/ic_launcher_round : reachable=true
+    @printer.smart.app:drawable/ic_launcher_background
+    @printer.smart.app:mipmap/ic_launcher_foreground
+    @printer.smart.app:drawable/ic_launcher_monochrome
+@printer.smart.app:string/androidx_startup : reachable=true
+@printer.smart.app:string/app_name : reachable=true
+@printer.smart.app:string/call_notification_answer_action : reachable=false
+@printer.smart.app:string/call_notification_answer_video_action : reachable=false
+@printer.smart.app:string/call_notification_decline_action : reachable=false
+@printer.smart.app:string/call_notification_hang_up_action : reachable=false
+@printer.smart.app:string/call_notification_incoming_text : reachable=false
+@printer.smart.app:string/call_notification_ongoing_text : reachable=false
+@printer.smart.app:string/call_notification_screening_text : reachable=false
+@printer.smart.app:string/close_drawer : reachable=true
+@printer.smart.app:string/close_sheet : reachable=true
+@printer.smart.app:string/default_error_message : reachable=true
+@printer.smart.app:string/default_popup_window_title : reachable=true
+@printer.smart.app:string/dropdown_menu : reachable=false
+@printer.smart.app:string/home_subtitle : reachable=false
+@printer.smart.app:string/home_title : reachable=false
+@printer.smart.app:string/in_progress : reachable=true
+@printer.smart.app:string/indeterminate : reachable=true
+@printer.smart.app:string/m3c_bottom_sheet_collapse_description : reachable=true
+@printer.smart.app:string/m3c_bottom_sheet_dismiss_description : reachable=true
+@printer.smart.app:string/m3c_bottom_sheet_drag_handle_description : reachable=true
+@printer.smart.app:string/m3c_bottom_sheet_expand_description : reachable=true
+@printer.smart.app:string/m3c_bottom_sheet_pane_title : reachable=true
+@printer.smart.app:string/m3c_date_input_headline : reachable=true
+@printer.smart.app:string/m3c_date_input_headline_description : reachable=true
+@printer.smart.app:string/m3c_date_input_invalid_for_pattern : reachable=true
+@printer.smart.app:string/m3c_date_input_invalid_not_allowed : reachable=true
+@printer.smart.app:string/m3c_date_input_invalid_year_range : reachable=true
+@printer.smart.app:string/m3c_date_input_label : reachable=true
+@printer.smart.app:string/m3c_date_input_no_input_description : reachable=true
+@printer.smart.app:string/m3c_date_input_title : reachable=true
+@printer.smart.app:string/m3c_date_picker_headline : reachable=true
+@printer.smart.app:string/m3c_date_picker_headline_description : reachable=true
+@printer.smart.app:string/m3c_date_picker_navigate_to_year_description : reachable=true
+@printer.smart.app:string/m3c_date_picker_no_selection_description : reachable=true
+@printer.smart.app:string/m3c_date_picker_scroll_to_earlier_years : reachable=true
+@printer.smart.app:string/m3c_date_picker_scroll_to_later_years : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_calendar_mode : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_day_selection : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_input_mode : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_next_month : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_previous_month : reachable=true
+@printer.smart.app:string/m3c_date_picker_switch_to_year_selection : reachable=true
+@printer.smart.app:string/m3c_date_picker_title : reachable=true
+@printer.smart.app:string/m3c_date_picker_today_description : reachable=true
+@printer.smart.app:string/m3c_date_picker_year_picker_pane_title : reachable=true
+@printer.smart.app:string/m3c_date_range_input_invalid_range_input : reachable=true
+@printer.smart.app:string/m3c_date_range_input_title : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_day_in_range : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_end_headline : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_scroll_to_next_month : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_scroll_to_previous_month : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_start_headline : reachable=true
+@printer.smart.app:string/m3c_date_range_picker_title : reachable=true
+@printer.smart.app:string/m3c_dialog : reachable=true
+@printer.smart.app:string/m3c_dropdown_menu_collapsed : reachable=true
+@printer.smart.app:string/m3c_dropdown_menu_expanded : reachable=true
+@printer.smart.app:string/m3c_dropdown_menu_toggle : reachable=true
+@printer.smart.app:string/m3c_search_bar_search : reachable=true
+@printer.smart.app:string/m3c_snackbar_dismiss : reachable=true
+@printer.smart.app:string/m3c_suggestions_available : reachable=true
+@printer.smart.app:string/m3c_time_picker_am : reachable=true
+@printer.smart.app:string/m3c_time_picker_hour : reachable=true
+@printer.smart.app:string/m3c_time_picker_hour_24h_suffix : reachable=true
+@printer.smart.app:string/m3c_time_picker_hour_selection : reachable=true
+@printer.smart.app:string/m3c_time_picker_hour_suffix : reachable=true
+@printer.smart.app:string/m3c_time_picker_hour_text_field : reachable=true
+@printer.smart.app:string/m3c_time_picker_minute : reachable=true
+@printer.smart.app:string/m3c_time_picker_minute_selection : reachable=true
+@printer.smart.app:string/m3c_time_picker_minute_suffix : reachable=true
+@printer.smart.app:string/m3c_time_picker_minute_text_field : reachable=true
+@printer.smart.app:string/m3c_time_picker_period_toggle_description : reachable=true
+@printer.smart.app:string/m3c_time_picker_pm : reachable=true
+@printer.smart.app:string/m3c_tooltip_long_press_label : reachable=false
+@printer.smart.app:string/m3c_tooltip_pane_description : reachable=false
+@printer.smart.app:string/navigation_menu : reachable=true
+@printer.smart.app:string/not_selected : reachable=true
+@printer.smart.app:string/range_end : reachable=true
+@printer.smart.app:string/range_start : reachable=true
+@printer.smart.app:string/selected : reachable=true
+@printer.smart.app:string/state_empty : reachable=true
+@printer.smart.app:string/state_off : reachable=true
+@printer.smart.app:string/state_on : reachable=true
+@printer.smart.app:string/status_bar_notification_info_overflow : reachable=false
+@printer.smart.app:string/switch_role : reachable=true
+@printer.smart.app:string/tab : reachable=true
+@printer.smart.app:string/template_percent : reachable=true
+@printer.smart.app:string/tooltip_description : reachable=true
+@printer.smart.app:string/tooltip_label : reachable=true
+@printer.smart.app:style/Base_Theme_SplashScreen : reachable=false
+    @printer.smart.app:style/Base_v21_Theme_SplashScreen
+    @printer.smart.app:style/Base_v27_Theme_SplashScreen
+@printer.smart.app:style/Base_Theme_SplashScreen_DayNight : reachable=false
+    @printer.smart.app:style/Base_Theme_SplashScreen_Light
+    @printer.smart.app:style/Base_Theme_SplashScreen
+@printer.smart.app:style/Base_Theme_SplashScreen_Light : reachable=false
+    @printer.smart.app:style/Base_v21_Theme_SplashScreen_Light
+    @printer.smart.app:style/Base_v27_Theme_SplashScreen_Light
+    @printer.smart.app:style/Base_Theme_SplashScreen
+@printer.smart.app:style/Base_v21_Theme_SplashScreen : reachable=false
+@printer.smart.app:style/Base_v21_Theme_SplashScreen_Light : reachable=false
+@printer.smart.app:style/Base_v27_Theme_SplashScreen : reachable=false
+    @printer.smart.app:style/Base_v21_Theme_SplashScreen
+@printer.smart.app:style/Base_v27_Theme_SplashScreen_Light : reachable=false
+    @printer.smart.app:style/Base_v21_Theme_SplashScreen_Light
+@printer.smart.app:style/DialogWindowTheme : reachable=true
+@printer.smart.app:style/EdgeToEdgeFloatingDialogTheme : reachable=false
+    @printer.smart.app:integer/m3c_window_layout_in_display_cutout_mode
+@printer.smart.app:style/EdgeToEdgeFloatingDialogWindowTheme : reachable=true
+    @printer.smart.app:style/EdgeToEdgeFloatingDialogTheme
+@printer.smart.app:style/FloatingDialogTheme : reachable=false
+@printer.smart.app:style/FloatingDialogWindowTheme : reachable=true
+    @printer.smart.app:style/FloatingDialogTheme
+@printer.smart.app:style/TextAppearance_Compat_Notification : reachable=false
+@printer.smart.app:style/TextAppearance_Compat_Notification_Info : reachable=false
+@printer.smart.app:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @printer.smart.app:style/TextAppearance_Compat_Notification_Info
+@printer.smart.app:style/TextAppearance_Compat_Notification_Time : reachable=false
+@printer.smart.app:style/TextAppearance_Compat_Notification_Title : reachable=false
+@printer.smart.app:style/Theme_HPPrinterTools : reachable=true
+    @printer.smart.app:color/hp_blue
+    @printer.smart.app:color/hp_dark
+@printer.smart.app:style/Theme_HPPrinterTools_Splash : reachable=true
+    @printer.smart.app:style/Theme_SplashScreen
+    @printer.smart.app:color/hp_blue
+    @printer.smart.app:attr/windowSplashScreenBackground
+    @printer.smart.app:mipmap/ic_launcher_foreground
+    @printer.smart.app:attr/windowSplashScreenAnimatedIcon
+    @printer.smart.app:style/Theme_HPPrinterTools
+    @printer.smart.app:attr/postSplashScreenTheme
+    @printer.smart.app:color/hp_dark
+@printer.smart.app:style/Theme_SplashScreen : reachable=false
+    @printer.smart.app:style/Theme_SplashScreen_Common
+    @printer.smart.app:attr/postSplashScreenTheme
+    @printer.smart.app:integer/default_icon_animation_duration
+    @printer.smart.app:attr/windowSplashScreenAnimationDuration
+    @printer.smart.app:attr/windowSplashScreenBackground
+    @printer.smart.app:attr/windowSplashScreenAnimatedIcon
+    @printer.smart.app:style/Base_Theme_SplashScreen_DayNight
+@printer.smart.app:style/Theme_SplashScreen_Common : reachable=false
+    @printer.smart.app:style/Base_Theme_SplashScreen_DayNight
+    @printer.smart.app:drawable/compat_splash_screen_no_icon_background
+    @printer.smart.app:dimen/splashscreen_icon_size_no_background
+    @printer.smart.app:attr/splashScreenIconSize
+@printer.smart.app:style/Theme_SplashScreen_IconBackground : reachable=false
+    @printer.smart.app:style/Theme_SplashScreen
+    @printer.smart.app:drawable/compat_splash_screen
+    @printer.smart.app:dimen/splashscreen_icon_size_with_background
+    @printer.smart.app:attr/splashScreenIconSize
+    @printer.smart.app:attr/windowSplashScreenIconBackgroundColor
+@printer.smart.app:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @printer.smart.app:drawable/notification_action_background
+@printer.smart.app:style/Widget_Compat_NotificationActionText : reachable=false
+    @printer.smart.app:color/androidx_core_secondary_text_default_material_light
+    @printer.smart.app:dimen/notification_action_text_size
+@printer.smart.app:xml/backup_rules : reachable=true
+@printer.smart.app:xml/data_extraction_rules : reachable=true
+@printer.smart.app:xml/file_paths : reachable=false
+
+The root reachable resources are:
+ attr:alpha:2130771968
+ attr:lStar:2130771980
+ attr:postSplashScreenTheme:2130771982
+ attr:splashScreenIconSize:2130771985
+ attr:windowSplashScreenAnimatedIcon:2130771987
+ attr:windowSplashScreenBackground:2130771989
+ id:accessibility_action_clickable_span:2131034112
+ id:accessibility_custom_action_0:2131034113
+ id:accessibility_custom_action_1:2131034114
+ id:accessibility_custom_action_10:2131034115
+ id:accessibility_custom_action_11:2131034116
+ id:accessibility_custom_action_12:2131034117
+ id:accessibility_custom_action_13:2131034118
+ id:accessibility_custom_action_14:2131034119
+ id:accessibility_custom_action_15:2131034120
+ id:accessibility_custom_action_16:2131034121
+ id:accessibility_custom_action_17:2131034122
+ id:accessibility_custom_action_18:2131034123
+ id:accessibility_custom_action_19:2131034124
+ id:accessibility_custom_action_2:2131034125
+ id:accessibility_custom_action_20:2131034126
+ id:accessibility_custom_action_21:2131034127
+ id:accessibility_custom_action_22:2131034128
+ id:accessibility_custom_action_23:2131034129
+ id:accessibility_custom_action_24:2131034130
+ id:accessibility_custom_action_25:2131034131
+ id:accessibility_custom_action_26:2131034132
+ id:accessibility_custom_action_27:2131034133
+ id:accessibility_custom_action_28:2131034134
+ id:accessibility_custom_action_29:2131034135
+ id:accessibility_custom_action_3:2131034136
+ id:accessibility_custom_action_30:2131034137
+ id:accessibility_custom_action_31:2131034138
+ id:accessibility_custom_action_4:2131034139
+ id:accessibility_custom_action_5:2131034140
+ id:accessibility_custom_action_6:2131034141
+ id:accessibility_custom_action_7:2131034142
+ id:accessibility_custom_action_8:2131034143
+ id:accessibility_custom_action_9:2131034144
+ id:androidx_compose_ui_view_composition_context:2131034150
+ id:compose_view_saveable_id_tag:2131034154
+ id:consume_window_insets_tag:2131034155
+ id:hide_graphics_layer_in_inspector_tag:2131034159
+ id:hide_in_inspector_tag:2131034161
+ id:inspection_slot_table_set:2131034165
+ id:is_pooling_container_tag:2131034166
+ id:pooling_container_listener_holder_tag:2131034174
+ id:report_drawn:2131034175
+ id:tag_accessibility_actions:2131034179
+ id:tag_accessibility_clickable_spans:2131034180
+ id:tag_accessibility_heading:2131034181
+ id:tag_accessibility_pane_title:2131034182
+ id:tag_on_apply_window_listener:2131034183
+ id:tag_screen_reader_focusable:2131034186
+ id:tag_state_description:2131034187
+ id:tag_unhandled_key_event_manager:2131034189
+ id:tag_unhandled_key_listeners:2131034190
+ id:tag_window_insets_animation_callback:2131034191
+ id:view_tree_lifecycle_owner:2131034196
+ id:view_tree_on_back_pressed_dispatcher_owner:2131034197
+ id:view_tree_saved_state_registry_owner:2131034198
+ id:view_tree_view_model_store_owner:2131034199
+ id:wrapped_composition_tag:2131034200
+ mipmap:ic_launcher:2131230720
+ mipmap:ic_launcher_round:2131230722
+ string:androidx_startup:2131296256
+ string:app_name:2131296257
+ string:close_drawer:2131296265
+ string:close_sheet:2131296266
+ string:default_error_message:2131296267
+ string:default_popup_window_title:2131296268
+ string:in_progress:2131296272
+ string:indeterminate:2131296273
+ string:m3c_bottom_sheet_collapse_description:2131296274
+ string:m3c_bottom_sheet_dismiss_description:2131296275
+ string:m3c_bottom_sheet_drag_handle_description:2131296276
+ string:m3c_bottom_sheet_expand_description:2131296277
+ string:m3c_bottom_sheet_pane_title:2131296278
+ string:m3c_date_input_headline:2131296279
+ string:m3c_date_input_headline_description:2131296280
+ string:m3c_date_input_invalid_for_pattern:2131296281
+ string:m3c_date_input_invalid_not_allowed:2131296282
+ string:m3c_date_input_invalid_year_range:2131296283
+ string:m3c_date_input_label:2131296284
+ string:m3c_date_input_no_input_description:2131296285
+ string:m3c_date_input_title:2131296286
+ string:m3c_date_picker_headline:2131296287
+ string:m3c_date_picker_headline_description:2131296288
+ string:m3c_date_picker_navigate_to_year_description:2131296289
+ string:m3c_date_picker_no_selection_description:2131296290
+ string:m3c_date_picker_scroll_to_earlier_years:2131296291
+ string:m3c_date_picker_scroll_to_later_years:2131296292
+ string:m3c_date_picker_switch_to_calendar_mode:2131296293
+ string:m3c_date_picker_switch_to_day_selection:2131296294
+ string:m3c_date_picker_switch_to_input_mode:2131296295
+ string:m3c_date_picker_switch_to_next_month:2131296296
+ string:m3c_date_picker_switch_to_previous_month:2131296297
+ string:m3c_date_picker_switch_to_year_selection:2131296298
+ string:m3c_date_picker_title:2131296299
+ string:m3c_date_picker_today_description:2131296300
+ string:m3c_date_picker_year_picker_pane_title:2131296301
+ string:m3c_date_range_input_invalid_range_input:2131296302
+ string:m3c_date_range_input_title:2131296303
+ string:m3c_date_range_picker_day_in_range:2131296304
+ string:m3c_date_range_picker_end_headline:2131296305
+ string:m3c_date_range_picker_scroll_to_next_month:2131296306
+ string:m3c_date_range_picker_scroll_to_previous_month:2131296307
+ string:m3c_date_range_picker_start_headline:2131296308
+ string:m3c_date_range_picker_title:2131296309
+ string:m3c_dialog:2131296310
+ string:m3c_dropdown_menu_collapsed:2131296311
+ string:m3c_dropdown_menu_expanded:2131296312
+ string:m3c_dropdown_menu_toggle:2131296313
+ string:m3c_search_bar_search:2131296314
+ string:m3c_snackbar_dismiss:2131296315
+ string:m3c_suggestions_available:2131296316
+ string:m3c_time_picker_am:2131296317
+ string:m3c_time_picker_hour:2131296318
+ string:m3c_time_picker_hour_24h_suffix:2131296319
+ string:m3c_time_picker_hour_selection:2131296320
+ string:m3c_time_picker_hour_suffix:2131296321
+ string:m3c_time_picker_hour_text_field:2131296322
+ string:m3c_time_picker_minute:2131296323
+ string:m3c_time_picker_minute_selection:2131296324
+ string:m3c_time_picker_minute_suffix:2131296325
+ string:m3c_time_picker_minute_text_field:2131296326
+ string:m3c_time_picker_period_toggle_description:2131296327
+ string:m3c_time_picker_pm:2131296328
+ string:navigation_menu:2131296331
+ string:not_selected:2131296332
+ string:range_end:2131296333
+ string:range_start:2131296334
+ string:selected:2131296335
+ string:state_empty:2131296336
+ string:state_off:2131296337
+ string:state_on:2131296338
+ string:switch_role:2131296340
+ string:tab:2131296341
+ string:template_percent:2131296342
+ string:tooltip_description:2131296343
+ string:tooltip_label:2131296344
+ style:DialogWindowTheme:2131361799
+ style:EdgeToEdgeFloatingDialogWindowTheme:2131361801
+ style:FloatingDialogWindowTheme:2131361803
+ style:Theme_HPPrinterTools:2131361809
+ style:Theme_HPPrinterTools_Splash:2131361810
+ xml:backup_rules:2131492864
+ xml:data_extraction_rules:2131492865
+Unused resources are: 
+ color:androidx_core_ripple_material_light:2130837504
+ color:androidx_core_secondary_text_default_material_light:2130837505
+ color:black:2130837506
+ color:call_notification_answer_color:2130837507
+ color:call_notification_decline_color:2130837508
+ color:hp_light:2130837511
+ color:notification_action_color_filter:2130837512
+ color:notification_icon_bg_color:2130837513
+ color:vector_tint_color:2130837514
+ color:vector_tint_theme_color:2130837515
+ color:white:2130837516
+ dimen:compat_button_inset_horizontal_material:2130903040
+ dimen:compat_button_inset_vertical_material:2130903041
+ dimen:compat_button_padding_horizontal_material:2130903042
+ dimen:compat_button_padding_vertical_material:2130903043
+ dimen:compat_control_corner_material:2130903044
+ dimen:compat_notification_large_icon_max_height:2130903045
+ dimen:compat_notification_large_icon_max_width:2130903046
+ dimen:notification_action_icon_size:2130903047
+ dimen:notification_action_text_size:2130903048
+ dimen:notification_big_circle_margin:2130903049
+ dimen:notification_content_margin_start:2130903050
+ dimen:notification_large_icon_height:2130903051
+ dimen:notification_large_icon_width:2130903052
+ dimen:notification_main_column_padding_top:2130903053
+ dimen:notification_media_narrow_margin:2130903054
+ dimen:notification_right_icon_size:2130903055
+ dimen:notification_right_side_padding_top:2130903056
+ dimen:notification_small_icon_background_padding:2130903057
+ dimen:notification_small_icon_size_as_large:2130903058
+ dimen:notification_subtext_size:2130903059
+ dimen:notification_top_pad:2130903060
+ dimen:notification_top_pad_large_text:2130903061
+ dimen:splashscreen_icon_mask_size_with_background:2130903063
+ dimen:splashscreen_icon_mask_stroke_with_background:2130903065
+ dimen:splashscreen_icon_size:2130903066
+ dimen:splashscreen_icon_size_with_background:2130903068
+ drawable:compat_splash_screen:2130968576
+ drawable:ic_call_answer:2130968578
+ drawable:ic_call_answer_low:2130968579
+ drawable:ic_call_answer_video:2130968580
+ drawable:ic_call_answer_video_low:2130968581
+ drawable:ic_call_decline:2130968582
+ drawable:ic_call_decline_low:2130968583
+ drawable:icon_background:2130968586
+ drawable:notification_action_background:2130968587
+ drawable:notification_bg:2130968588
+ drawable:notification_bg_low:2130968589
+ drawable:notification_bg_low_normal:2130968590
+ drawable:notification_bg_low_pressed:2130968591
+ drawable:notification_bg_normal:2130968592
+ drawable:notification_bg_normal_pressed:2130968593
+ drawable:notification_icon_background:2130968594
+ drawable:notification_oversize_large_icon_bg:2130968595
+ drawable:notification_template_icon_bg:2130968596
+ drawable:notification_template_icon_low_bg:2130968597
+ drawable:notification_tile_bg:2130968598
+ drawable:notify_panel_notification_icon_bg:2130968599
+ id:action_container:2131034145
+ id:action_divider:2131034146
+ id:action_image:2131034147
+ id:action_text:2131034148
+ id:actions:2131034149
+ id:async:2131034151
+ id:blocking:2131034152
+ id:chronometer:2131034153
+ id:dialog_button:2131034156
+ id:edit_text_id:2131034157
+ id:forever:2131034158
+ id:hide_ime_id:2131034160
+ id:icon:2131034162
+ id:icon_group:2131034163
+ id:info:2131034164
+ id:italic:2131034167
+ id:line1:2131034168
+ id:line3:2131034169
+ id:normal:2131034170
+ id:notification_background:2131034171
+ id:notification_main_column:2131034172
+ id:notification_main_column_container:2131034173
+ id:right_icon:2131034176
+ id:right_side:2131034177
+ id:splashscreen_icon_view:2131034178
+ id:tag_on_receive_content_listener:2131034184
+ id:tag_on_receive_content_mime_types:2131034185
+ id:tag_transition_group:2131034188
+ id:text:2131034192
+ id:text2:2131034193
+ id:time:2131034194
+ id:title:2131034195
+ integer:status_bar_notification_info_maxnum:2131099650
+ layout:custom_dialog:2131165184
+ layout:ime_base_split_test_activity:2131165185
+ layout:ime_secondary_split_test_activity:2131165186
+ layout:notification_action:2131165187
+ layout:notification_action_tombstone:2131165188
+ layout:notification_template_custom_big:2131165189
+ layout:notification_template_icon_group:2131165190
+ layout:notification_template_part_chronometer:2131165191
+ layout:notification_template_part_time:2131165192
+ layout:splash_screen_view:2131165193
+ string:call_notification_answer_action:2131296258
+ string:call_notification_answer_video_action:2131296259
+ string:call_notification_decline_action:2131296260
+ string:call_notification_hang_up_action:2131296261
+ string:call_notification_incoming_text:2131296262
+ string:call_notification_ongoing_text:2131296263
+ string:call_notification_screening_text:2131296264
+ string:dropdown_menu:2131296269
+ string:home_subtitle:2131296270
+ string:home_title:2131296271
+ string:m3c_tooltip_long_press_label:2131296329
+ string:m3c_tooltip_pane_description:2131296330
+ string:status_bar_notification_info_overflow:2131296339
+ style:TextAppearance_Compat_Notification:2131361804
+ style:TextAppearance_Compat_Notification_Info:2131361805
+ style:TextAppearance_Compat_Notification_Line2:2131361806
+ style:TextAppearance_Compat_Notification_Time:2131361807
+ style:TextAppearance_Compat_Notification_Title:2131361808
+ style:Theme_SplashScreen_IconBackground:2131361813
+ style:Widget_Compat_NotificationActionContainer:2131361814
+ style:Widget_Compat_NotificationActionText:2131361815
+ xml:file_paths:2131492866

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="hp_blue">#FF0096D6</color>
+    <color name="hp_dark">#FF003F6B</color>
+    <color name="hp_light">#FFE6F4FB</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Smart Print Tools</string>
+    <string name="home_subtitle">Tap a tool to start</string>
+    <string name="home_title">Smart Print Tools</string>
+    <style name="Theme.HPPrinterTools" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/hp_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/hp_blue</item>
+    </style>
+    <style name="Theme.HPPrinterTools.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/hp_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.HPPrinterTools</item>
+    </style>
+</resources>

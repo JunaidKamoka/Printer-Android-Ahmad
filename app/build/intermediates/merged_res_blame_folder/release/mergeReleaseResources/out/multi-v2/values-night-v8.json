@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "printer.smart.app-mergeReleaseResources-42:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/macbook/.gradle/caches/8.9/transforms/75ffd0f95e65e31b6fe7e8f3abb119d7/transformed/core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                },
+                {
+                    "source": "/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,352",
+                        "endLines": "6,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "346,675"
+                    },
+                    "to": {
+                        "startLines": "3,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "141,437",
+                        "endLines": "7,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "432,760"
+                    }
+                }
+            ]
+        }
+    ]
+}

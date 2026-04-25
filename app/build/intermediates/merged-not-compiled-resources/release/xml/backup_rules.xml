@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The app stores no user data, so backup/restore is a no-op. Declaring
+     the file silences a manifest-merger warning and satisfies Play's
+     "configure data backup" advisory. -->
+<full-backup-content>
+    <exclude domain="root" path="." />
+</full-backup-content>

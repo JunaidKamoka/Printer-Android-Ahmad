@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launcher / on-device label. Kept brand-neutral on purpose: Google Play
+         flags apps that imply affiliation with another company in their app
+         name (HP's official app is literally named "HP Smart"). The Play
+         Store listing title is allowed to mention HP because it describes
+         compatibility, not identity. -->
+    <string name="app_name">Smart Print Tools</string>
+
+    <string name="home_title">Smart Print Tools</string>
+    <string name="home_subtitle">Tap a tool to start</string>
+</resources>

@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color hp_blue
+color hp_dark
+color hp_light
+color white
+drawable ic_launcher_background
+drawable ic_launcher_monochrome
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+string home_subtitle
+string home_title
+style Theme.HPPrinterTools
+style Theme.HPPrinterTools.Splash
+xml backup_rules
+xml data_extraction_rules
+xml file_paths

@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="printer.smart.app"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!--
+12      We deliberately keep this manifest minimal:
+13        • The system photo / document pickers (ActivityResultContracts) hand us
+14          a content:// URI with read access — no storage permission required.
+15        • The system camera intent (ACTION_IMAGE_CAPTURE) does not need
+16          android.permission.CAMERA *unless* we declare it. Declaring it would
+17          force a runtime prompt and crash if the user denies. So we omit it.
+18        • Printing happens through the system print framework — we hold no
+19          network sockets ourselves.
+20      The only permission we actually need is INTERNET (a normal permission,
+21      not user-prompted) for the print framework's helper services.
+22    -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:16:5-67
+23-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:16:22-64
+24
+25    <!--
+26         Camera and Wi-Fi are *features*, not required at install time. This
+27         lets users without a camera install the app while still letting Play
+28         filter for capable devices.
+29    -->
+30    <uses-feature
+30-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:21:5-23:36
+31        android:name="android.hardware.camera"
+31-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:22:9-47
+32        android:required="false" />
+32-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:23:9-33
+33    <uses-feature
+33-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:24:5-26:36
+34        android:name="android.hardware.camera.any"
+34-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:25:9-51
+35        android:required="false" />
+35-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:26:9-33
+36    <uses-feature
+36-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:27:5-29:36
+37        android:name="android.hardware.wifi"
+37-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:28:9-45
+38        android:required="false" />
+38-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:29:9-33
+39
+40    <!--
+41         Android 11+ package visibility: declare every intent shape we launch
+42         so the system tells us which apps can handle them and the chooser
+43         isn't silently empty.
+44    -->
+45    <queries>
+45-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:34:5-80:15
+46
+47        <!--
+48             Photo & document pickers (system-provided, but listing the intent
+49             shape is still recommended for clarity).
+50        -->
+51        <intent>
+51-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:37:9-40:18
+52            <action android:name="android.intent.action.GET_CONTENT" />
+52-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:38:13-72
+52-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:38:21-69
+53
+54            <data android:mimeType="image/*" />
+54-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+54-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:19-45
+55        </intent>
+56        <intent>
+56-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:41:9-44:18
+57            <action android:name="android.intent.action.OPEN_DOCUMENT" />
+57-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:42:13-74
+57-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:42:21-71
+58
+59            <data android:mimeType="application/pdf" />
+59-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+59-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:19-45
+60        </intent>
+61
+62        <!-- Browser handlers. -->
+63        <intent>
+63-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:47:9-51:18
+64            <action android:name="android.intent.action.VIEW" />
+64-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:13-65
+64-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:21-62
+65
+66            <category android:name="android.intent.category.BROWSABLE" />
+66-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:49:13-74
+66-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:49:23-71
+67
+68            <data android:scheme="https" />
+68-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+68-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:50:19-41
+69        </intent>
+70        <intent>
+70-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:52:9-56:18
+71            <action android:name="android.intent.action.VIEW" />
+71-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:13-65
+71-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:21-62
+72
+73            <category android:name="android.intent.category.BROWSABLE" />
+73-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:49:13-74
+73-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:49:23-71
+74
+75            <data android:scheme="http" />
+75-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+75-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:50:19-41
+76        </intent>
+77
+78        <!-- PDF / Word viewer for the "Print Document" tool. -->
+79        <intent>
+79-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:59:9-62:18
+80            <action android:name="android.intent.action.VIEW" />
+80-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:13-65
+80-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:21-62
+81
+82            <data android:mimeType="application/pdf" />
+82-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+82-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:19-45
+83        </intent>
+84
+85        <!-- Email composer for the "Mobile Fax" tool. -->
+86        <intent>
+86-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:65:9-68:18
+87            <action android:name="android.intent.action.SENDTO" />
+87-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:66:13-67
+87-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:66:21-64
+88
+89            <data android:scheme="mailto" />
+89-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+89-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:50:19-41
+90        </intent>
+91
+92        <!-- System camera capture. -->
+93        <intent>
+93-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:71:9-73:18
+94            <action android:name="android.media.action.IMAGE_CAPTURE" />
+94-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:72:13-73
+94-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:72:21-70
+95        </intent>
+96
+97        <!-- Play Store deep-link for "HP Print Plugin" tool. -->
+98        <intent>
+98-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:76:9-79:18
+99            <action android:name="android.intent.action.VIEW" />
+99-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:13-65
+99-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:48:21-62
+100
+101            <data android:scheme="market" />
+101-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:39:13-48
+101-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:50:19-41
+102        </intent>
+103    </queries>
+104
+105    <permission
+105-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+106        android:name="printer.smart.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+106-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+107        android:protectionLevel="signature" />
+107-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+108
+109    <uses-permission android:name="printer.smart.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+109-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+109-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+110
+111    <application
+111-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:82:5-102:19
+112        android:allowBackup="true"
+112-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:83:9-35
+113        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+113-->[androidx.core:core:1.13.1] /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+114        android:dataExtractionRules="@xml/data_extraction_rules"
+114-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:84:9-65
+115        android:extractNativeLibs="false"
+116        android:fullBackupContent="@xml/backup_rules"
+116-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:85:9-54
+117        android:icon="@mipmap/ic_launcher"
+117-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:86:9-43
+118        android:label="@string/app_name"
+118-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:87:9-41
+119        android:roundIcon="@mipmap/ic_launcher_round"
+119-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:88:9-54
+120        android:supportsRtl="true"
+120-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:89:9-35
+121        android:theme="@style/Theme.HPPrinterTools" >
+121-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:90:9-52
+122        <activity
+122-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:92:9-101:20
+123            android:name="printer.smart.app.MainActivity"
+123-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:93:13-41
+124            android:exported="true"
+124-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:94:13-36
+125            android:label="@string/app_name"
+125-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:95:13-45
+126            android:theme="@style/Theme.HPPrinterTools.Splash" >
+126-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:96:13-63
+127            <intent-filter>
+127-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:97:13-100:29
+128                <action android:name="android.intent.action.MAIN" />
+128-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:98:17-69
+128-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:98:25-66
+129
+130                <category android:name="android.intent.category.LAUNCHER" />
+130-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:99:17-77
+130-->/Users/macbook/Documents/GitHub/Ahmad/Printer/app/src/main/AndroidManifest.xml:99:27-74
+131            </intent-filter>
+132        </activity>
+133
+134        <provider
+134-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+135            android:name="androidx.startup.InitializationProvider"
+135-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+136            android:authorities="printer.smart.app.androidx-startup"
+136-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+137            android:exported="false" >
+137-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+138            <meta-data
+138-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+139-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+140                android:value="androidx.startup" />
+140-->[androidx.emoji2:emoji2:1.3.0] /Users/macbook/.gradle/caches/8.9/transforms/91dafd708a8ee95ef95fa36639d5817a/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+141            <meta-data
+141-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/macbook/.gradle/caches/8.9/transforms/15ea9e74573bdcdca95c1849c45a627c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+142-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/macbook/.gradle/caches/8.9/transforms/15ea9e74573bdcdca95c1849c45a627c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+143                android:value="androidx.startup" />
+143-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/macbook/.gradle/caches/8.9/transforms/15ea9e74573bdcdca95c1849c45a627c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+144            <meta-data
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+145                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+146                android:value="androidx.startup" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+147        </provider>
+148
+149        <receiver
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+150            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+151            android:directBootAware="false"
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+152            android:enabled="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+153            android:exported="true"
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+154            android:permission="android.permission.DUMP" >
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+156                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+159                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+162                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+163            </intent-filter>
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+165                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/macbook/.gradle/caches/8.9/transforms/540be8a05d5cf66a6c12ec8c5625a117/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+166            </intent-filter>
+167        </receiver>
+168    </application>
+169
+170</manifest>
