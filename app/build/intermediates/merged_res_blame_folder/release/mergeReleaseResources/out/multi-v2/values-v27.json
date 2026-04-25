@@ -4,7 +4,7 @@
             "outputFile": "printer.smart.app-mergeReleaseResources-42:/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/Users/macbook/.gradle/caches/8.9/transforms/75ffd0f95e65e31b6fe7e8f3abb119d7/transformed/core-splashscreen-1.0.1/res/values-v27/values-v27.xml",
+                    "source": "/Users/macbook/.gradle/caches/8.9/transforms/f2b8e69594d1dc1351281b560c4dcb50/transformed/core-splashscreen-1.0.1/res/values-v27/values-v27.xml",
                     "from": {
                         "startLines": "2,3,4,7",
                         "startColumns": "4,4,4,4",

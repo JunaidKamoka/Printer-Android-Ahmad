@@ -16,14 +16,14 @@ val keystoreProps = Properties().apply {
 
 android {
     namespace = "printer.smart.app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "printer.smart.app"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 2
-        versionName = "1.0.1"
+        targetSdk = 35
+        versionCode = 4
+        versionName = "1.0.3"
 
         vectorDrawables { useSupportLibrary = true }
         resourceConfigurations += listOf("en")

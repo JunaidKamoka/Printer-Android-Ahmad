@@ -1,11 +1,13 @@
-Marking id:wrapped_composition_tag:2131034200 reachable: referenced from base/dex/classes.dex
 Marking string:androidx_startup:2131296256 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_scroll_to_earlier_years:2131296291 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_scroll_to_later_years:2131296292 reachable: referenced from base/dex/classes.dex
 Marking string:default_popup_window_title:2131296268 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_view_model_store_owner:2131034199 reachable: referenced from base/dex/classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131034198 reachable: referenced from base/dex/classes.dex
 Marking id:compose_view_saveable_id_tag:2131034154 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_switch_to_next_month:2131296296 reachable: referenced from base/dex/classes.dex
-Marking style:EdgeToEdgeFloatingDialogWindowTheme:2131361801 reachable: referenced from base/dex/classes.dex
+Marking string:tab:2131296341 reachable: referenced from base/dex/classes.dex
+Marking string:switch_role:2131296340 reachable: referenced from base/dex/classes.dex
 Marking attr:windowSplashScreenBackground:2130771989 reachable: referenced from base/dex/classes.dex
 Marking attr:windowSplashScreenAnimatedIcon:2130771987 reachable: referenced from base/dex/classes.dex
 Marking attr:splashScreenIconSize:2130771985 reachable: referenced from base/dex/classes.dex
@@ -13,7 +15,6 @@ Marking attr:postSplashScreenTheme:2130771982 reachable: referenced from base/de
 Marking string:m3c_bottom_sheet_collapse_description:2131296274 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_bottom_sheet_dismiss_description:2131296275 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_bottom_sheet_expand_description:2131296277 reachable: referenced from base/dex/classes.dex
-Marking id:view_tree_saved_state_registry_owner:2131034198 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_range_picker_scroll_to_previous_month:2131296307 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_range_picker_scroll_to_next_month:2131296306 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_time_picker_period_toggle_description:2131296327 reachable: referenced from base/dex/classes.dex
@@ -28,6 +29,7 @@ Marking string:m3c_time_picker_hour_24h_suffix:2131296319 reachable: referenced 
 Marking string:m3c_time_picker_hour_suffix:2131296321 reachable: referenced from base/dex/classes.dex
 Marking style:FloatingDialogWindowTheme:2131361803 reachable: referenced from base/dex/classes.dex
 Marking style:DialogWindowTheme:2131361799 reachable: referenced from base/dex/classes.dex
+Marking id:wrapped_composition_tag:2131034200 reachable: referenced from base/dex/classes.dex
 Marking id:inspection_slot_table_set:2131034165 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_switch_to_input_mode:2131296295 reachable: referenced from base/dex/classes.dex
 Marking id:androidx_compose_ui_view_composition_context:2131034150 reachable: referenced from base/dex/classes.dex
@@ -42,14 +44,13 @@ Marking string:m3c_date_input_headline_description:2131296280 reachable: referen
 Marking string:m3c_date_picker_title:2131296299 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_input_title:2131296286 reachable: referenced from base/dex/classes.dex
 Marking id:view_tree_lifecycle_owner:2131034196 reachable: referenced from base/dex/classes.dex
-Marking id:view_tree_view_model_store_owner:2131034199 reachable: referenced from base/dex/classes.dex
+Marking style:EdgeToEdgeFloatingDialogWindowTheme:2131361801 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_navigate_to_year_description:2131296289 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_time_picker_pm:2131296328 reachable: referenced from base/dex/classes.dex
 Marking id:tag_unhandled_key_listeners:2131034190 reachable: referenced from base/dex/classes.dex
 Marking string:default_error_message:2131296267 reachable: referenced from base/dex/classes.dex
-Marking id:pooling_container_listener_holder_tag:2131034174 reachable: referenced from base/dex/classes.dex
-Marking id:tag_unhandled_key_event_manager:2131034189 reachable: referenced from base/dex/classes.dex
 Marking id:is_pooling_container_tag:2131034166 reachable: referenced from base/dex/classes.dex
+Marking id:tag_unhandled_key_event_manager:2131034189 reachable: referenced from base/dex/classes.dex
 Marking id:tag_screen_reader_focusable:2131034186 reachable: referenced from base/dex/classes.dex
 Marking id:tag_accessibility_heading:2131034181 reachable: referenced from base/dex/classes.dex
 Marking id:tag_accessibility_pane_title:2131034182 reachable: referenced from base/dex/classes.dex
@@ -74,7 +75,6 @@ Marking string:m3c_date_range_picker_day_in_range:2131296304 reachable: referenc
 Marking string:m3c_date_picker_today_description:2131296300 reachable: referenced from base/dex/classes.dex
 Marking id:tag_window_insets_animation_callback:2131034191 reachable: referenced from base/dex/classes.dex
 Marking id:tag_on_apply_window_listener:2131034183 reachable: referenced from base/dex/classes.dex
-Marking id:consume_window_insets_tag:2131034155 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_time_picker_am:2131296317 reachable: referenced from base/dex/classes.dex
 Marking id:accessibility_custom_action_0:2131034113 reachable: referenced from base/dex/classes.dex
 Marking id:accessibility_custom_action_1:2131034114 reachable: referenced from base/dex/classes.dex
@@ -132,13 +132,13 @@ Marking string:close_drawer:2131296265 reachable: referenced from base/dex/class
 Marking string:m3c_date_picker_switch_to_day_selection:2131296294 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_switch_to_year_selection:2131296298 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_bottom_sheet_drag_handle_description:2131296276 reachable: referenced from base/dex/classes.dex
+Marking id:consume_window_insets_tag:2131034155 reachable: referenced from base/dex/classes.dex
 Marking id:hide_in_inspector_tag:2131034161 reachable: referenced from base/dex/classes.dex
 Marking string:m3c_date_picker_switch_to_calendar_mode:2131296293 reachable: referenced from base/dex/classes.dex
 Marking id:hide_graphics_layer_in_inspector_tag:2131034159 reachable: referenced from base/dex/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131034174 reachable: referenced from base/dex/classes.dex
 Marking attr:alpha:2130771968 reachable: referenced from base/dex/classes.dex
 Marking attr:lStar:2130771980 reachable: referenced from base/dex/classes.dex
-Marking string:tab:2131296341 reachable: referenced from base/dex/classes.dex
-Marking string:switch_role:2131296340 reachable: referenced from base/dex/classes.dex
 @printer.smart.app:attr/alpha : reachable=true
 @printer.smart.app:attr/font : reachable=false
 @printer.smart.app:attr/fontProviderAuthority : reachable=false

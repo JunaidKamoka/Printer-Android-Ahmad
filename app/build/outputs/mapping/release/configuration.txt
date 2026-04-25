@@ -1,4 +1,11 @@
-# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.5.2
+# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class printer.smart.app.MainActivity { <init>(); }
+
+# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.6.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -89,8 +96,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.5.2
-# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer/app/proguard-rules.pro
+# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.6.1
+# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/proguard-rules.pro
 # --- Compose / AndroidX ---
 -keepclasseswithmembers class * {
     @androidx.compose.runtime.Composable <methods>;
@@ -111,8 +118,8 @@
 # --- Keep app entry points ---
 -keep class printer.smart.app.MainActivity { *; }
 
-# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer/app/proguard-rules.pro
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/15c17959b1bc368c02cc491687cc862b/transformed/ui-release/proguard.txt
+# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer-Android-Ahmad/app/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/3f5bb168d2b98d86a6ee0cc49cd4c420/transformed/ui-release/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -147,14 +154,14 @@
 # reflection to determine the class type. See b/265188224 for more context.
 -keep,allowshrinking class * extends androidx.compose.ui.node.ModifierNodeElement
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/15c17959b1bc368c02cc491687cc862b/transformed/ui-release/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/2f05c18a2b400dcb43e643b428b674cb/transformed/graphics-path-1.0.1/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/3f5bb168d2b98d86a6ee0cc49cd4c420/transformed/ui-release/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/cde731c619b595ecc0dfd3ede2ba6665/transformed/graphics-path-1.0.1/proguard.txt
 -keepclasseswithmembers class androidx.graphics.path.** {
     native <methods>;
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/2f05c18a2b400dcb43e643b428b674cb/transformed/graphics-path-1.0.1/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/cde731c619b595ecc0dfd3ede2ba6665/transformed/graphics-path-1.0.1/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/fb84da60e70f1fe14ca0c45d989c3599/transformed/core-1.13.1/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -172,8 +179,8 @@
   <methods>;
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/5cd7ad6226c423e75c5a3b7e2c03e406/transformed/core-1.13.1/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/da1244dda75537bd9de40d6fea73de99/transformed/savedstate-1.2.1/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/fb84da60e70f1fe14ca0c45d989c3599/transformed/core-1.13.1/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/9c8ba7c01aab6d598dbe6c3c45c336d6/transformed/savedstate-1.2.1/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -192,8 +199,8 @@
     <init>();
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/da1244dda75537bd9de40d6fea73de99/transformed/savedstate-1.2.1/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/a1bf80dca29144c313cb0e1642c9569b/transformed/lifecycle-viewmodel-release/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/9c8ba7c01aab6d598dbe6c3c45c336d6/transformed/savedstate-1.2.1/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/1429e664f9a6a2713be46eaedd05f84b/transformed/lifecycle-viewmodel-release/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -202,8 +209,8 @@
     <init>(android.app.Application);
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/a1bf80dca29144c313cb0e1642c9569b/transformed/lifecycle-viewmodel-release/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/757dad6287a529950d172a75efdebd0e/transformed/lifecycle-runtime-release/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/1429e664f9a6a2713be46eaedd05f84b/transformed/lifecycle-viewmodel-release/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/b7e93f78df40f6000fa5ed0111206681/transformed/lifecycle-runtime-release/proguard.txt
 -keepattributes AnnotationDefault,
                 RuntimeVisibleAnnotations,
                 RuntimeVisibleParameterAnnotations,
@@ -224,12 +231,12 @@
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/757dad6287a529950d172a75efdebd0e/transformed/lifecycle-runtime-release/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/15ea9e74573bdcdca95c1849c45a627c/transformed/lifecycle-process-2.8.3/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/b7e93f78df40f6000fa5ed0111206681/transformed/lifecycle-runtime-release/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/6d3a79cf5caa2c863c31180f546cc882/transformed/lifecycle-process-2.8.3/proguard.txt
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/15ea9e74573bdcdca95c1849c45a627c/transformed/lifecycle-process-2.8.3/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/1d2cbe2324f3380825130305da6ec567/transformed/lifecycle-runtime-compose-release/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/6d3a79cf5caa2c863c31180f546cc882/transformed/lifecycle-process-2.8.3/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/05afd0b930e3f7b7724bff6416694efe/transformed/lifecycle-runtime-compose-release/proguard.txt
 # Workaround for https://issuetracker.google.com/issues/346808608
 #
 # `androidx.lifecycle.compose.LocalLifecycleOwner` will reflectively lookup for
@@ -249,8 +256,8 @@
     public static *** getLocalLifecycleOwner();
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/1d2cbe2324f3380825130305da6ec567/transformed/lifecycle-runtime-compose-release/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/e7f5eea463a0f7869616837551cab9ee/transformed/lifecycle-viewmodel-savedstate-2.8.3/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/05afd0b930e3f7b7724bff6416694efe/transformed/lifecycle-runtime-compose-release/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/d80bcf13129a4103f3f3a71868c83e1c/transformed/lifecycle-viewmodel-savedstate-2.8.3/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -259,8 +266,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/e7f5eea463a0f7869616837551cab9ee/transformed/lifecycle-viewmodel-savedstate-2.8.3/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/b5b4e2ce97871d9a4686ccc0c45d9c6c/transformed/runtime-release/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/d80bcf13129a4103f3f3a71868c83e1c/transformed/lifecycle-viewmodel-savedstate-2.8.3/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/78151a3ba02ca79dd4269119fde9dccd/transformed/runtime-release/proguard.txt
 -assumenosideeffects public class androidx.compose.runtime.ComposerKt {
     void sourceInformation(androidx.compose.runtime.Composer,java.lang.String);
     void sourceInformationMarkerStart(androidx.compose.runtime.Composer,int,java.lang.String);
@@ -276,15 +283,15 @@
 -assumenosideeffects public class androidx.compose.runtime.ComposerImpl {
     void <clinit>();
 }
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/b5b4e2ce97871d9a4686ccc0c45d9c6c/transformed/runtime-release/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/abb0eca6fb23352c50d0ed3cc4dad665/transformed/versionedparcelable-1.1.1/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/78151a3ba02ca79dd4269119fde9dccd/transformed/runtime-release/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/c54d62b990b10c2fbb8fd4791ae13183/transformed/versionedparcelable-1.1.1/proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/abb0eca6fb23352c50d0ed3cc4dad665/transformed/versionedparcelable-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/7bce27c5d7c047a115ab4e4448ad5f45/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/c54d62b990b10c2fbb8fd4791ae13183/transformed/versionedparcelable-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/e0436bc6e4f3481e51877a4331d560e8/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro
 # - META-INF/com.android.tools/proguard/coroutines.pro
@@ -312,8 +319,8 @@
 
 # An annotation used for build tooling, won't be directly accessed.
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/7bce27c5d7c047a115ab4e4448ad5f45/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/1fc71c53f959893ee1d5296b6d1e2855/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/e0436bc6e4f3481e51877a4331d560e8/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/6163ac8c0e30cc76cc5292ed48e37ae0/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
@@ -337,8 +344,8 @@
     boolean getRECOVER_STACK_TRACES() return false;
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/1fc71c53f959893ee1d5296b6d1e2855/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/77726b2d6c2e0cf6183c94b2a7761e0c/transformed/startup-runtime-1.1.1/proguard.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/6163ac8c0e30cc76cc5292ed48e37ae0/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/198da7e97d7afc9fdd5431a65180a91b/transformed/startup-runtime-1.1.1/proguard.txt
 # It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
 -keepnames class * extends androidx.startup.Initializer
 
@@ -352,8 +359,8 @@
 
 -assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/77726b2d6c2e0cf6183c94b2a7761e0c/transformed/startup-runtime-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/599f10ed3e310ff2eaab7486c107c6e2/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/198da7e97d7afc9fdd5431a65180a91b/transformed/startup-runtime-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /Users/macbook/.gradle/caches/8.9/transforms/4bd58358eeeac771d4ee7c8b8a86857b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -373,14 +380,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from /Users/macbook/.gradle/caches/8.9/transforms/599f10ed3e310ff2eaab7486c107c6e2/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
-# The proguard configuration file for the following section is /Users/macbook/Documents/GitHub/Ahmad/Printer/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
--keep class androidx.startup.InitializationProvider { <init>(); }
--keep class printer.smart.app.MainActivity { <init>(); }
-
-# End of content from /Users/macbook/Documents/GitHub/Ahmad/Printer/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# End of content from /Users/macbook/.gradle/caches/8.9/transforms/4bd58358eeeac771d4ee7c8b8a86857b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>
